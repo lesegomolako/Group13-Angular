@@ -1,0 +1,83 @@
+.heading
+{
+    display: flex;
+    border-bottom: 1px solid black;
+
+}
+
+.contents
+{
+    padding:10px;
+    border-bottom: 1px solid grey ;
+    width: 90%;
+}
+
+.inputs input, select
+{
+    border-radius: 3px;
+    border: 1px solid #838383;
+    height: 2.5em;
+    width: 20em;
+    
+}
+
+
+
+.inputs textarea
+{
+    border-radius: 3px;
+    border: 1px solid #838383;
+    height: 2.5em;
+    width: 15em;
+    
+}
+
+.details div {
+    display: inline-table;
+    padding-right: 5px;
+    margin: auto;
+    
+}
+
+.details div label {
+    display: block;
+}
+
+.inputs
+{
+    margin-right:15px;
+}
+
+.buttons
+{
+    display: inline-table;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 25%;
+    float: right;
+}
+
+.form-group input
+{
+    width: 25em;
+}
+
+.form-group textarea
+{
+    width: 25em;
+}
+
+.form-group select
+{
+    width: 25em;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: grey;
+    opacity: 1;
+  }
+
+
+
+
+ 

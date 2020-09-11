@@ -1,0 +1,19 @@
+<div class="heading">
+    <h1>Delete Service Option</h1>
+</div>
+    
+<div class="contents">
+    <h2>Service Option details</h2>
+
+    <div class="details">
+        <div class="inputs">
+            <label for="ServiceName"><b>Name:</b> {{formData.Name}}</label>    
+            <label for="Description"><b>Duration:</b>{{formData.Duration}}</label>  
+        </div>
+    </div>
+</div>
+
+<div class="buttons">
+    <button class="btn btn-light" (click)="Cancel()">Cancel</button>
+    <button class="btn btn-danger" (click)="Delete(formData.OptionID)">Delete</button>
+</div>
